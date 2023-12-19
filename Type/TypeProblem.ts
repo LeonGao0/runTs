@@ -33,7 +33,6 @@ type FuncArray = Function[];
 
 type Weekday = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Sarturday' | 'Sunday'; 
 
-
 class Queue<T> {
     private items: T[] = [];
     push(item: T) {
@@ -48,3 +47,5 @@ class Queue<T> {
         return this.items.length;
     }
 }
+
+// test
