@@ -47,5 +47,3 @@ class Queue<T> {
         return this.items.length;
     }
 }
-
-// second commit
